@@ -12,7 +12,7 @@
 
   #banner-float {
     position: fixed;
-    bottom: 60px; /* Distância do fundo da página para não sobrepor o WhatsApp */
+    bottom: 0px; /* Alinha o banner ao fundo da página */
     left: 0; /* Alinha à esquerda da página */
     width: calc(100% + 70px); /* Largura total da página + margem */
     background-color: black; /* Fundo preto */
@@ -41,7 +41,7 @@
   /* Estilos para o ícone flutuante do WhatsApp */
   #whatsapp-float {
     position: fixed;
-    bottom: 0px; /* Distância do fundo da página */
+    bottom: 60px; /* Distância do fundo da página para não sobrepor o banner */
     right: 0px; /* Distância da direita da página */
     z-index: 9999; /* Garante que fique acima de outros elementos */
     display: flex; /* Usa flexbox para alinhar os itens */
@@ -99,3 +99,4 @@
 
 </body>
 </html>
+
